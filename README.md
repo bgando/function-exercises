@@ -1,5 +1,5 @@
 # [Part 2: eFarmony Functions](id:pt2)
-[Back to Contents](#top)
+[Back to Home](https://github.com/bgando/JS102)
 
 These exercises emulate real problems you will encounter when making a dating app. Your task is to respond with solutions to the challenges presented. This is a free-form exercise so be creative!
 
