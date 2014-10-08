@@ -5,46 +5,6 @@ These exercises emulate real problems you will encounter when making a dating ap
 
 **You will be placing all your code into the scripts.js file** 
 
-
-### [Scenario 0: Helper/Utility Functions](id:utility)
-Write the following utility functions as a warm-up. You may use some or all of them in the scenarios below. When you create a large app, you tend to collect utility functions like this library or carry them over from previous projects. 
-
-- `printObjKeys` loops through the properties of any object and returns a string of all the keys. 
-  - example input: `{ username: 'duck', tagline: 'Afflack', noises: ['quack', 'honk', 'sneeze', 'growl'] }` 
-  - example output: `"username tagline noises"`   
-
-- `printObjVals` loops through all the properties in any object and returns a string of all the values that are strings.
-  - example input: `{ username: 'duck', tagline: 'Afflack', noises: ['quack', 'honk', 'sneeze', 'growl'] }` 
-  - example output: `"duck Afflack"` 
-
-- `objValToArr` loops through all the properties in any object and returns an array of **all** the values.
-  - example input: `{ username: 'duck', tagline: 'Afflack', noises: ['quack', 'honk', 'sneeze', 'growl'] }` 
-  - example output: `[duck, Afflack, ['quack', 'honk', 'sneeze', 'growl']]" //notice the nested array` 
-
-- `printArrVals` takes any array and returns the values as a string 
-  - example input: `['quack', 'honk', 'sneeze', 'growl']` 
-  - example output: `"quack honk sneeze growl"`
-
--  `dataTypeChecker` takes either an array or object and returns either `'array'` or `'object'` as appropriate.
-  - example input: `['quack', 'honk', 'sneeze', 'growl']` 
-  - example output: `"array"`
-  - example input: `{}` 
-  - example output: `"object"`
-  
-- `capitalizeStr` takes a string, capitalizes the first letter of each word, and returns the string.
-  - example input: `"my name is bristol"` 
-  - example output: `"My Name Is Bristol"`
-  
-- `capitalizeVals` takes an object, capitalizes the first letter of each string value in the object, and returns the object. Ignore any non-string values like arrays, numbers or objects.
-  - example input: `{ username: 'duck', tagline: 'Afflack', noises: ['quack', 'honk', 'sneeze', 'growl'] }` 
-  - example output: `{ username: 'Duck', tagline: 'Afflack', noises: ['quack', 'honk', 'sneeze', 'growl'] }`
-  
-- `unique` takes an array, removes any duplicate values and returns the array.
-  - example input: `[1,2,3,3,4]` 
-  - example output: `[1,2,3,4]`
-
-- `extend` takes two objects and copies the properties of the first object on to the second. It does not return anything. 
-
 ### [Scenario 1: Animal Profile Page](id:profile)
 In our first scenario, we want to create a profile page for one of our animals. We will create functions that will help organize our data and present it to the user in a human-readable way.
 
