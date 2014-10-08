@@ -106,3 +106,6 @@
           //  matches: ['Zeny']
           // }
   ```
+1. When does a parameter represent a value? 
+
+1. What role does scope have in giving variables and parameters values inside of functions?
