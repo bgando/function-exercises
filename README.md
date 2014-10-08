@@ -12,6 +12,13 @@
   console.log(testSheep); //{ username: 'CottonBall' }
   ```
 
+1. In your `AnimalTestUser` function, create a check that sees how many arguments are passed. If there is more than one argument, create a property, `otherArgs` that is an array of the remaining arguments.
+
+  ```javascript
+  var testSheep = AnimalTestUser('CottonBall', {'loves dancing': true}, [1,2,3] );
+  console.log(testSheep); //{ username: 'CottonBall', otherArgs: [ {'loves dancing': true}, [1,2,3] ] }
+  ```
+
 
 1. Write a constructor function, `AnimalCreator` that returns a single animal object. The constructor function has 4 parameters: `username`, `species`, `tagline,` and `noises`. The animal object should have at least 5 properties: `username`, `species`, `noises`, `tagline`, and `friends`. The values should all be strings except `noises` and `friends`, which are arrays. 
   
