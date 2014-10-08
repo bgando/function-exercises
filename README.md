@@ -5,6 +5,14 @@
 
 ### [Scenario 1: Animal User](id:profile)
 
+1. Write a function, `AnimalTestUser`, that has one string parameter, `username`. It returns an object with a username property.
+
+  ```javascript
+  var testSheep = AnimalTestUser('CottonBall');
+  console.log(testSheep); //{ username: 'CottonBall' }
+  ```
+
+
 1. Write a constructor function, `AnimalCreator` that returns a single animal object. The constructor function has 4 parameters: `username`, `species`, `tagline,` and `noises`. The animal object should have at least 5 properties: `username`, `species`, `noises`, `tagline`, and `friends`. The values should all be strings except `noises` and `friends`, which are arrays. 
   
   ```javascript
@@ -59,3 +67,5 @@
           //  friends: ['Moo', 'Zeny']
           // }
   ```
+  
+1. 
