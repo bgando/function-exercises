@@ -68,4 +68,34 @@
           // }
   ```
   
-1. 
+1. Create a `myFarm` collection of at least 3 animal objects. Give them some friends using `addFriend`, too!
+
+  ```javascript 
+  console.log(myFarm) //[{username: 'Cloud'...},{username: 'Zeny'...},{username: 'CottonBall'...}]
+  ```
+  
+1. Create a function, `addMatchesArray`, that takes a farm (array of animal objects) and adds a new property to each animal object called `matches` that is an empty array. Hint: you will need a loop. 
+
+  ```javascript 
+  addMatchesArray(myFarm); 
+  console.log(myFarm[0]); // { username: 'Cloud', 
+          //  species: 'sheep', 
+          //  tagline: 'You can count on me!', 
+          //  noises: ['baahhh', 'arrgg', 'chewchewchew'], 
+          //  friends: ['Moo', 'Zeny'],
+          //  matches: []
+          // }
+  ```
+  
+1. Create a function, `giveMatches`, that takes a farm collection (aka an array of animal objects) that already has a matches property. It selects a name from the `friends` array and adds it to the `matches` array. You can choose how the selection is made (random, the first element, etc). Make sure all your animal objects have friends.
+
+  ```javascript 
+  giveMatches(myFarm); 
+  console.log(myFarm[0]); // { username: 'Cloud', 
+          //  species: 'sheep', 
+          //  tagline: 'You can count on me!', 
+          //  noises: ['baahhh', 'arrgg', 'chewchewchew'], 
+          //  friends: ['Moo', 'Zeny'],
+          //  matches: ['Zeny']
+          // }
+  ```
