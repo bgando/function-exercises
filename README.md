@@ -38,3 +38,24 @@
           //  friends: [{username: 'Moo', species: 'cow'...}, {username: 'Zeny', species: 'llama'...}]
           // }
   ```
+
+1. Change your `addFriend` function to only add the username of the friend, not the whole object.
+
+  ```javascript
+    addFriend(sheep, cow);
+    console.log(sheep);
+          // { username: 'Cloud', 
+          //  species: 'sheep', 
+          //  tagline: 'You can count on me!', 
+          //  noises: ['baahhh', 'arrgg', 'chewchewchew'], 
+          //  friends: ['Moo']
+          // }
+    addFriend(sheep, llama);
+    console.log(sheep);
+          // { username: 'Cloud', 
+          //  species: 'sheep', 
+          //  tagline: 'You can count on me!', 
+          //  noises: ['baahhh', 'arrgg', 'chewchewchew'], 
+          //  friends: ['Moo', 'Zeny']
+          // }
+  ```
