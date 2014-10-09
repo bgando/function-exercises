@@ -3,6 +3,8 @@
 
 **You will be placing all your code into the scripts.js file** 
 
+---
+
 ### [Animal User](id:profile)
 
 1. Write a function, `AnimalTestUser`, that has one string parameter, `username`. It returns an object with a username property.
